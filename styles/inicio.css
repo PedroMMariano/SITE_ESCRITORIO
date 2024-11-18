@@ -71,7 +71,7 @@
         background-color: black;
         border: none;
         margin-top: 50px;
-        margin-left: 23%;
+        justify-self: center;
     }
 }
 
@@ -88,9 +88,10 @@
     .inicio {
         margin-left: 10px;
         margin-right: 10px;
-        display: block;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-
+        height: 100vh;
     }
 
     .logo-inicio {
@@ -100,7 +101,6 @@
     .txt {
         font-size: auto;
         width: auto;
-        align-items: center;
         text-align: center;
     }
 
@@ -114,9 +114,19 @@
         border-radius: 55px;
         font-weight: bold;
         background-color: black;
+        color: white;
         border: none;
-        margin-top: 50px;
-        margin-left: 23%;
+        margin-top: 20px;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        cursor: pointer;
+    }
+
+    .btn {
+        justify-content: center;
+        flex-direction: column;
+        align-self: center;
     }
 }
 
