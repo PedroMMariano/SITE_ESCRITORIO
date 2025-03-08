@@ -1,214 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/sobre.css">
-    <link rel="stylesheet" href="styles/inicio.css">
-    <link rel="stylesheet" href="styles/depoimentos.css">
-    <link rel="stylesheet" href="styles/contatos.css">
-    <link rel="stylesheet" href="styles/areas.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <title>Drª Tatiana Menezes</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>Dra. Tatiana Menezes</title>
 </head>
-
 <body>
+    <!-- Barra de Navegação -->
     <header>
-        <nav id="navbar">
-            <img class="nav-logo" src="src/img/Logotipo_DraTatianaMenezes_SemFundo-03.png" alt="Logotipo">
-            <div>
-                <ul class="nav-list">
-                    <a class="link" href="">
-                        <li class="nav-itens">Inicio</li>
-                    </a>
-                    <a class="link" href="">
-                        <li class="nav-itens">Sobre</li>
-                    </a>
-                    <a class="link" href="">
-                        <li class="nav-itens">Serviços</li>
-                    </a>
-                    <a class="link" href="">
-                        <li class="nav-itens">Depoimentos</li>
-                    </a>
-                    <a class="link" href="">
-                        <li class="nav-itens">Contato</li>
-                    </a>
+        <div class="content">
+            <nav>
+                <img src="src/img/Logotipo_DraTatianaMenezes_SemFundo-03.png" alt="Logo Dra. Tatiana Menezes">
+                <ul>
+                    <li><a href="#home">Inicio</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#areas">Areas</a></li>
+                    <li><a href="#depoiments">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                    <button>Área do Advogado</button>
                 </ul>
-            </div>
-        </nav>
+            </nav>
+        </div>
     </header>
-
-    <main>
-        <div class="inicio">
-            <div class="container.1">
-                <p class="txt">Protegemos o que mais importa:<br>
-                    <span>seus direitos e sua tranquilidade.</span>
-                </p>
+    <!-- Hero Section -->
+    <section class="home" id="home">
+        <div class="hero">
+            <div class="text">
+                <h1>Protegemos o que mais importa:</h1>
+                <p>seus direitos e sua tranquilidade</p>
             </div>
-            <button class="btn-inicio">
-                <a class="link-inicio" href="#">Agende uma consulta</a>
-            </button>
-            <img class="logo-inicio" src="src/img/Logotipo_DraTatianaMenezes_SemFundo-03.png" alt="Logotipo">
+            <div class="button">
+                <button>Agende uma consulta</button>
+            </div>
         </div>
-
-        <div class="sobre">
-            <div class="sobre-txt">
-                <div>
-                    <h3 class="sobre-title">
-                        TATIANA MENEZES | OAB/RS 130.549
-                    </h3><br>
-                    <p class="sobre-description">
-                        Tatiana Menezes é advogada formada pela Pontifícia Universidade Católica do Rio Grande do Sul
-                        (PUCRS), instituição reconhecida por sua excelência no ensino do direito. Apesar de sua recente
-                        formação, possuí um sólido compromisso com o direito e já investiu em sua qualificação com três
-                        especializações: Direito Civil, Direito do Trabalho e Direito de Família.<br>
-                        Com uma visão atualizada das práticas jurídicas e foco em soluções eficientes, Tatiana alia
-                        dedicação, ética e inovação para oferecer um atendimento personalizado a cada cliente. Sua
-                        missão é
-                        transformar desafios legais em soluções que promovam a justiça e tranquilidade de quem confia em
-                        seu
-                        trabalho.
-                    </p>
+    </section>
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="content">
+            <div class="about-content">
+                <div class="left">
+                    <img src="src/img/327920005_873775960531565_2664073145131327358_n 1.png" alt="Foto Dra. Tatiana Menezes">
                 </div>
-                <div>
-                    <img class="sobre-img" src="src/img/327920005_873775960531565_2664073145131327358_n 1.png"
-                        alt="Dra. Tatiana Menezes">
+                <div class="right">
+                    <h3>TATIANA MENEZES | OAB/RS 130.549</h3>
+                    <p>Tatiana Menezes é advogada formada pela Pontifícia Universidade Católica do Rio Grande do Sul (PUCRS), instituição reconhecida por sua excelência no ensino do direito, atualmente é a advogada titular do Núcleo de Prática Jurídica da FADERGS. Apesar de sua recente formação, possuí um sólido compromisso com o direito e já investiu em sua qualificação com três especializações: Direito Civil, Direito do Trabalho e Direito de Família.
+                        Com uma visão atualizada das práticas jurídicas e foco em soluções eficientes, Tatiana alia dedicação, ética e inovação para oferecer um atendimento personalizado a cada cliente. Sua missão é transformar desafios legais em soluções que promovam a justiça e tranquilidade de quem confia em seu trabalho. </p>
                 </div>
             </div>
-
-            <button class="btn-sobre">
-                <a class="link-sobre" href="">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
-            </button>
         </div>
-
-        <div class="area">
-            <h3 class="area-title">Principais Áreas de Atuação</h3><br><br>
-            <div class="areas">
-                <div class="areas-txt">
-                    <h4 class="areas-title">Direito Civil</h4><br>
-                    <p class="p-areas">
-                        Ação de Cobrança<br>
-                        Ações de Indenização<br>
-                        Contratos
-                    </p>
+    </section>
+    <!-- Section Visão -->
+    <section class="valores" id="valores">
+        <div class="content">
+            <div class="title-wrapper-services1">
+                <h3>Nossos Valores</h3>
+            </div>
+            <div class="card-wrapper1">
+                <div class="card-item1">
+                    <div class="card-content1">
+                        <h3>Missão</h3>
+                        <p>Proporcionar suporte jurídico de excelência, assegurando os direitos e interesses dos clientes de forma ética e eficaz.</p>
+                    </div>
                 </div>
-                <div class="areas-txt">
-                    <h4 class="areas-title">Direito Trabalhista</h4><br>
-                    <p class="p-areas">
-                        Reclamação Trabalhista<br>
-                        Benefícios e Direitos<br>
-                        Rescição Indireta
-                    </p>
+                <div class="card-item1">
+                    <div class="card-content1">
+                        <h3>Visão</h3>
+                        <p>Tornar-se referência na advocacia brasileira, destacando-se pelo atendimento personalizado e pela inovação no setor jurídico.</p>
+                    </div>
                 </div>
-                <div class="areas-txt">
-                    <h4 class="areas-title">Direito de Família</h4><br>
-                    <p class="p-areas">
-                        Guarda<br>
-                        Divórcio<br>
-                        Pensão Alimentícia
-                    </p>
-                </div>
-                <div class="areas-txt">
-                    <h4 class="areas-title">Direito da Saúde</h4><br>
-                    <p class="p-areas">
-                        Pedido de Medicamento<br>
-                        Tratamento<br>
-                        Antecipação de Consulta
-                    </p>
+                <div class="card-item1">
+                    <div class="card-content1">
+                        <h3>Valores</h3>
+                        <p>Compromisso, ética, transparência, inovação e defesa intransigente dos interesses dos clientes.</p>
+                    </div>
                 </div>
             </div>
-            <button class="btn-area">
-                <a class="link-inicio" href="#">Agende uma consulta</a>
-            </button>
-
         </div>
-
-        <div class="depoimento">
-            <h3 class="dep-title">Depoimentos</h3>
-            <div class="dep-1-2">
-                <p class="dep-1">
-                    Precisei de ajuda para resolver um contrato que estava causando muitos problemas e a Dra. Tatiana
-                    foi incrível. Ela esclareceu todas as minhas dúvidas e conseguiu uma solução rápida e justa.
-                    Recomendo pelo profissionalismo e dedicação.<br>— Carlos Andrade
-                </p>
-                <p class="dep-2">
-                    Quando meu plano de saúde negou um tratamento essencial, eu me senti perdido. A Dra. Tatiana lutou
-                    pelo meu caso com determinação e conseguiu garantir o que eu precisava. Foi um alívio contar com
-                    alguém tão dedicada e capacitada.<br>— Roberto Vieira
-                </p>
+    </section>
+    <!-- Areas Section -->
+    <section class="areas" id="areas">
+        <div class="content">
+            <div class="title-wrapper-services">
+                <h3>Áreas de Atuação</h3>
             </div>
-            <div class="dep-3-4">
-                <p class="dep-3">
-                    Passei por uma situação complicada com minha antiga empresa e achava que não teria como resolver. A
-                    Dra. Tatiana foi extremamente atenciosa, explicou todas as etapas do processo e conseguiu garantir
-                    os meus direitos. Sou muito grato pela confiança e competência!<br>— Fernanda Silva
-                </p>
-                <p class="dep-4">
-                    Durante um momento difícil de separação, a Dra. Tatiana foi essencial. Com sensibilidade e
-                    profissionalismo, ela conduziu todo o processo com tranquilidade e clareza, sempre buscando a melhor
-                    solução para todos os envolvidos. Recomendo de olhos fechados!<br>— Mariana Lopes
-                </p>
+            <div class="card-wrapper">
+                <div class="card-item">
+                    <div class="card-content">
+                        <h3>Direito Civil</h3>
+                        <p>Ação de Cobrança</p>
+                        <p>Ações de Indenização</p>
+                        <p>Contratos</p>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="card-content">
+                        <h3>Direito Trabalhista</h3>
+                        <p>Reclamação Trabalhista</p>
+                        <p>Benefícios e Direitos</p>
+                        <p>Rescisão Indireta</p>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="card-content">
+                        <h3>Direito de Família</h3>
+                        <p>Ação de Guarda</p>
+                        <p>Divórcio</p>
+                        <p>Pensão Alimentícia</p>
+                    </div>
+                </div>
+                <div class="card-item">
+                    <div class="card-content">
+                        <h3>Direito de Saúde</h3>
+                        <p>Pedido de Medicamento</p>
+                        <p>Pedido de Tratamento</p>
+                        <p>Antecipação de Consulta</p>
+                    </div>
+                </div>
             </div>
-            <button class="btn-sobre">
-                <a class="link-sobre" href="">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
-            </button>
         </div>
+    </section>
+    <!-- Section Features -->
+    <section class="features" id="features">
+        <div class="content">
+            <div class="title-wrapper-features">
+                <h3>Conheça nossos diferenciais</h3>
+            </div>
+            <div class="feature-card-block">
+                <div class="feature-card-item">
+                    <img src="src/img/1.png" alt="balança">
+                    <div class="feature-text-content">
+                        <p>Atendimento humanizado e confidencial.</p>
+                    </div>
+                </div>
+                <div class="feature-card-item">
+                    <img src="src/img/1.png" alt="balança">
+                    <div class="feature-text-content">
+                        <p>Resolução rápida e estratégica de processos.</p>
+                    </div>
+                </div>
+                <div class="feature-card-item">
+                    <img src="src/img/1.png" alt="balança">
+                    <div class="feature-text-content">
+                        <p>Comunicação clara e acessível para clientes.</p>
+                    </div>
+                </div>
+                <div class="feature-card-item">
+                    <img src="src/img/1.png" alt="balança">
+                    <div class="feature-text-content">
+                        <p>Tecnologia e inovação para facilitar o acompanhamento dos casos.</p>
+                    </div>
+                </div>
 
-        <div class="contato">
-            <h3 class="title-contato">Contato</h3><bR><br>
-
-            <form class="contact-form" method="POST" action="https://formsubmit.co/adv.tatianamenezes@gmail.com">
-                <label for="name"></label>
-                <input type="text" placeholder="Nome" id="name" name="name" required><br><br>
-
-                <label for="email"></label>
-                <input type="email" placeholder="E-mail" id="email" name="email" required><br><br>
-
-                <label for="subject"></label>
-                <input type="text" placeholder="Assunto" id="subject" name="subject" required><br><br>
-
-                <label for="message"></label>
-                <textarea id="message" placeholder="Mensagem" rows="5" required></textarea><br><br>
-
-                <button type="submit" class="btn-contato">
-                    Enviar
-                </button>
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
-            </form>
+            </div>
         </div>
-    </main>
-
+    </section>
+    <!-- Depoiments Section -->
+    <section class="depoiments" id="depoiments">
+        <div class="content">
+            <div class="title-wrapper-depoiments">
+                <h3>Depoimentos</h3>
+            </div>
+            <div class="depoiment-card-block">
+                <div class="depoiment-card-item">
+                    <div class="depoiments-content">
+                        <p>"Tatiana é uma advogada excepcional, sempre atenciosa e dedicada. Ela me ajudou a resolver um problema trabalhista de forma rápida e eficiente. Recomendo seu trabalho a todos que precisam de um advogado de confiança."</p>
+                        <h4>João da Silva</h4>
+                    </div>
+                </div>
+                <div class="depoiment-card-item">
+                    <div class="depoiments-content">
+                        <p>"Contratei os serviços da Dra. Tatiana para resolver um problema de pensão alimentícia e fiquei muito satisfeita com o resultado. Ela é uma profissional competente e comprometida com seus clientes."</p>
+                        <h4>Maria Oliveira</h4>
+                    </div>
+                </div>
+                <div class="depoiment-card-item">
+                    <div class="depoiments-content">
+                        <p>"Passei por uma situação complicada com minha antiga empresa e achava que não teria como resolver. A Dra. Tatiana foi extremamente atenciosa, explicou todas as etapas do processo e conseguiu garantir os meus direitos. Sou muito grato pela confiança e competência!"</p>
+                        <h4>Fernanda da Silva</h4>
+                    </div>
+                </div>
+                <div class="depoiment-card-item">
+                    <div class="depoiments-content">
+                        <p>"Durante um momento difícil de separação, a Dra. Tatiana foi essencial. Com sensibilidade e profissionalismo, ela conduziu todo o processo com tranquilidade e clareza, sempre buscando a melhor solução para todos os envolvidos. Recomendo de olhos fechados!"</p>
+                        <h4>Mariana Lopes</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title-wrapper-contact">
+                <h3>Entre em contato</h3>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Footer Section -->
     <footer>
-        <div class="rodape">
-            <img class="fot-logo" src="src/img/Logotipo_DraTatianaMenezes_SemFundo-03.png" alt="">
-            <div class="icons">
-                <a href="" class="soc"><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="" class="soc"><i class="fa-brands fa-instagram"></i></a>
-                <a href="" class="soc"><i class="fa-brands fa-linkedin"></i></a>
+        <div class="main">
+            <div class="content footer-links">
+                <div class="footer-company">
+                    <img src="src/img/Logotipo_DraTatianaMenezes_SemFundo-02.png" alt="">
+                </div>
+                <div class="footer-rental">
+                    <h4>Sobre</h4>
+                    <h6>Areas</h6>
+                    <h6>Diferenciais</h6>
+                    <h6>Contato</h6>
+                </div>
+                <div class="footer-social">
+                    <h4>Nos siga nas redes!</h4>
+                    <div class="social-icons">
+                        <img src="src/img/facebook-brands-solid.svg" alt="Facebook">
+                        <img src="src/img/instagram-brands-solid.svg" alt="Instagram">
+                        <img src="src/img/linkedin-brands-solid.svg" alt="Instagram">
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <h4>Entre em contato!</h4>
+                    <h6>+55 51 99358-8066</h6>
+                    <h6>adv.tatianamenezes@gmail.com</h6>
+                    <h6>Rua Bento Gonçalves, nº1217, Centro, Viamão-RS</h6>
+                </div>
             </div>
-            <p class="dados">
-                Endereço: Rua Bento Gonçalves, nº1217, Centro, Viamão-RS<br>
-                Telefone: +55 (51) 99358-8066<br>
-                E-mail: adv.tatianamenezes@gmail.com<br>
-            </p>
-            <iframe class="map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3452.4753696972452!2d-51.024014199999996!3d-30.0805692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95199f4e3f70aef5%3A0x2d2c89637a09f00f!2sR.%20Bento%20Gon%C3%A7alves%2C%201217%20-%20Centro%2C%20Viam%C3%A3o%20-%20RS%2C%2094415-700!5e0!3m2!1spt-BR!2sbr!4v1731883596139!5m2!1spt-BR!2sbr"
-                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="last">
+            <p>© 2025 Tatiana Menezes Advogada. Todos os direitos reservados.</p>
         </div>
     </footer>
 </body>
-
 </html>
